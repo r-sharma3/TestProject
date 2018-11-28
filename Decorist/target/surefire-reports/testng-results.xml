@@ -41,13 +41,13 @@
       <![CDATA[Info ::Verify Wait for Home Page Login Button element to be clickable]]>
     </line>
     <line>
-      <![CDATA[Pass ::Verified Home Page Login Buttonelement is clickable : Waited 55mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-42-937_cc62a773-db30-4077-aac9-09e57b216f9f.png]]>
+      <![CDATA[Pass ::Verified Home Page Login Buttonelement is clickable : Waited 105mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-47-237_c3d081c6-69e2-4ebe-861f-93c2b2d44de2.png]]>
     </line>
     <line>
       <![CDATA[Info ::Verify that Home Page Login Button is clicked]]>
     </line>
     <line>
-      <![CDATA[Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-44-617_5b735983-d8ef-43a3-bd40-3f6aed1671a6.png]]>
+      <![CDATA[Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-49-643_266951aa-aabb-4667-866b-f7c69bed459b.png]]>
     </line>
     <line>
       <![CDATA[Info ::Verify element is present and displaying]]>
@@ -60,36 +60,36 @@ LOG IN
 OR
 LOG IN WITH FACEBOOK
 We will never share your email.
-Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-45-799_3cfd5f64-0e86-40ee-8e00-316f1044b5c9.png]]>
+Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-51-367_09d6617b-c144-4678-8340-c235a837f563.png]]>
     </line>
     <line>
       <![CDATA[Info ::Verify text box - 'user-email' is cleared and enter value]]>
     </line>
     <line>
-      <![CDATA[Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-47-194_b6151a29-3750-44c6-87ec-a375af7b051c.png]]>
+      <![CDATA[Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-53-631_fe8a269a-0486-4368-a67b-6d3f0bff6070.png]]>
     </line>
     <line>
       <![CDATA[Info ::Verify text box - 'user-password' is cleared and enter value]]>
     </line>
     <line>
-      <![CDATA[Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-48-516_45ff4e5b-6154-4917-9093-9e54984214db.png]]>
+      <![CDATA[Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-55-527_0cc6a7cc-14c9-4509-8ef0-1365d7df0e83.png]]>
     </line>
     <line>
       <![CDATA[Info ::Verify that Login Button is clicked]]>
     </line>
     <line>
-      <![CDATA[Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-52-791_3b3a79a2-77d7-42a1-92ac-d7bbc370d417.png]]>
+      <![CDATA[Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-31-01-675_7e87e5f4-df76-4c08-91eb-cfd2437937d1.png]]>
     </line>
     <line>
       <![CDATA[Info ::closeBrowser() = **Closing Browser*]]>
     </line>
   </reporter-output>
-  <suite name="test.java.Designer_LoginTest" duration-ms="28802" started-at="2018-11-28T05:53:26Z" finished-at="2018-11-28T05:53:55Z">
+  <suite name="test.java.Designer_LoginTest" duration-ms="34995" started-at="2018-11-28T08:00:29Z" finished-at="2018-11-28T08:01:04Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="28802" started-at="2018-11-28T05:53:26Z" finished-at="2018-11-28T05:53:55Z">
+    <test name="Command line test" duration-ms="34995" started-at="2018-11-28T08:00:29Z" finished-at="2018-11-28T08:01:04Z">
       <class name="test.java.Designer_LoginTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:test.java.Designer_LoginTest@1a968a59]" name="openBrowser" is-config="true" duration-ms="15866" started-at="2018-11-28T11:23:26Z" finished-at="2018-11-28T11:23:42Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:test.java.Designer_LoginTest@1753acfe]" name="openBrowser" is-config="true" duration-ms="16517" started-at="2018-11-28T13:30:29Z" finished-at="2018-11-28T13:30:45Z">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,7 @@ Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_Log
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="nuRentalDigitalGmStoreGC()[pri:0, instance:test.java.Designer_LoginTest@1a968a59]" name="nuRentalDigitalGmStoreGC" duration-ms="11355" started-at="2018-11-28T11:23:42Z" finished-at="2018-11-28T11:23:53Z">
+        <test-method status="PASS" signature="nuRentalDigitalGmStoreGC()[pri:0, instance:test.java.Designer_LoginTest@1753acfe]" name="nuRentalDigitalGmStoreGC" duration-ms="16603" started-at="2018-11-28T13:30:45Z" finished-at="2018-11-28T13:31:02Z">
           <reporter-output>
             <line>
               <![CDATA[Info ::Starting Browser chrome]]>
@@ -142,13 +142,13 @@ Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_Log
               <![CDATA[Info ::Verify Wait for Home Page Login Button element to be clickable]]>
             </line>
             <line>
-              <![CDATA[Pass ::Verified Home Page Login Buttonelement is clickable : Waited 55mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-42-937_cc62a773-db30-4077-aac9-09e57b216f9f.png]]>
+              <![CDATA[Pass ::Verified Home Page Login Buttonelement is clickable : Waited 105mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-47-237_c3d081c6-69e2-4ebe-861f-93c2b2d44de2.png]]>
             </line>
             <line>
               <![CDATA[Info ::Verify that Home Page Login Button is clicked]]>
             </line>
             <line>
-              <![CDATA[Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-44-617_5b735983-d8ef-43a3-bd40-3f6aed1671a6.png]]>
+              <![CDATA[Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-49-643_266951aa-aabb-4667-866b-f7c69bed459b.png]]>
             </line>
             <line>
               <![CDATA[Info ::Verify element is present and displaying]]>
@@ -161,29 +161,29 @@ LOG IN
 OR
 LOG IN WITH FACEBOOK
 We will never share your email.
-Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-45-799_3cfd5f64-0e86-40ee-8e00-316f1044b5c9.png]]>
+Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-51-367_09d6617b-c144-4678-8340-c235a837f563.png]]>
             </line>
             <line>
               <![CDATA[Info ::Verify text box - 'user-email' is cleared and enter value]]>
             </line>
             <line>
-              <![CDATA[Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-47-194_b6151a29-3750-44c6-87ec-a375af7b051c.png]]>
+              <![CDATA[Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-53-631_fe8a269a-0486-4368-a67b-6d3f0bff6070.png]]>
             </line>
             <line>
               <![CDATA[Info ::Verify text box - 'user-password' is cleared and enter value]]>
             </line>
             <line>
-              <![CDATA[Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-48-516_45ff4e5b-6154-4917-9093-9e54984214db.png]]>
+              <![CDATA[Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-30-55-527_0cc6a7cc-14c9-4509-8ef0-1365d7df0e83.png]]>
             </line>
             <line>
               <![CDATA[Info ::Verify that Login Button is clicked]]>
             </line>
             <line>
-              <![CDATA[Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-52-791_3b3a79a2-77d7-42a1-92ac-d7bbc370d417.png]]>
+              <![CDATA[Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_13-31-01-675_7e87e5f4-df76-4c08-91eb-cfd2437937d1.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- nuRentalDigitalGmStoreGC -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.Designer_LoginTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1570" started-at="2018-11-28T11:23:53Z" finished-at="2018-11-28T11:23:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.Designer_LoginTest@1753acfe]" name="tearDown" is-config="true" duration-ms="1860" started-at="2018-11-28T13:31:02Z" finished-at="2018-11-28T13:31:04Z">
           <reporter-output>
             <line>
               <![CDATA[Info ::closeBrowser() = **Closing Browser*]]>
