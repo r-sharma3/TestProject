@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Info ::Starting Browser chrome]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Platform on which script is running : XP]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Version of the chrome Browser is 70.0.3538.102]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Browser cookies Successfully cleared]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Browserchrome Successfully Invoked]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Navigating to url https://www.idcqa.decorist.com/]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Starting Browser chrome]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Platform on which script is running : Windows 10]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Version of the chrome Browser is 70.0.3538.102]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Browserchrome Successfully Invoked]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Step1 :Launch Decorist URL]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Step2 :Login to the Application as Designer]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Verify Wait for Home Page Login Button element to be clickable]]>
+    </line>
+    <line>
+      <![CDATA[Pass ::Verified Home Page Login Buttonelement is clickable : Waited 55mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-42-937_cc62a773-db30-4077-aac9-09e57b216f9f.png]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Verify that Home Page Login Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-44-617_5b735983-d8ef-43a3-bd40-3f6aed1671a6.png]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Verify element is present and displaying]]>
+    </line>
+    <line>
+      <![CDATA[Pass ::Verified element is displayed -> element text: LOG IN
+Forgot Password?
+Remember me
+LOG IN
+OR
+LOG IN WITH FACEBOOK
+We will never share your email.
+Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-45-799_3cfd5f64-0e86-40ee-8e00-316f1044b5c9.png]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Verify text box - 'user-email' is cleared and enter value]]>
+    </line>
+    <line>
+      <![CDATA[Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-47-194_b6151a29-3750-44c6-87ec-a375af7b051c.png]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Verify text box - 'user-password' is cleared and enter value]]>
+    </line>
+    <line>
+      <![CDATA[Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-48-516_45ff4e5b-6154-4917-9093-9e54984214db.png]]>
+    </line>
+    <line>
+      <![CDATA[Info ::Verify that Login Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-52-791_3b3a79a2-77d7-42a1-92ac-d7bbc370d417.png]]>
+    </line>
+    <line>
+      <![CDATA[Info ::closeBrowser() = **Closing Browser*]]>
+    </line>
+  </reporter-output>
+  <suite name="test.java.Designer_LoginTest" duration-ms="28802" started-at="2018-11-28T05:53:26Z" finished-at="2018-11-28T05:53:55Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="28802" started-at="2018-11-28T05:53:26Z" finished-at="2018-11-28T05:53:55Z">
+      <class name="test.java.Designer_LoginTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:test.java.Designer_LoginTest@1a968a59]" name="openBrowser" is-config="true" duration-ms="15866" started-at="2018-11-28T11:23:26Z" finished-at="2018-11-28T11:23:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IamOptional]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Info ::Starting Browser chrome]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Platform on which script is running : XP]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Version of the chrome Browser is 70.0.3538.102]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Browser cookies Successfully cleared]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Browserchrome Successfully Invoked]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Navigating to url https://www.idcqa.decorist.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="nuRentalDigitalGmStoreGC()[pri:0, instance:test.java.Designer_LoginTest@1a968a59]" name="nuRentalDigitalGmStoreGC" duration-ms="11355" started-at="2018-11-28T11:23:42Z" finished-at="2018-11-28T11:23:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Info ::Starting Browser chrome]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Platform on which script is running : Windows 10]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Version of the chrome Browser is 70.0.3538.102]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Browserchrome Successfully Invoked]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Step1 :Launch Decorist URL]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Step2 :Login to the Application as Designer]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Verify Wait for Home Page Login Button element to be clickable]]>
+            </line>
+            <line>
+              <![CDATA[Pass ::Verified Home Page Login Buttonelement is clickable : Waited 55mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-42-937_cc62a773-db30-4077-aac9-09e57b216f9f.png]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Verify that Home Page Login Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-44-617_5b735983-d8ef-43a3-bd40-3f6aed1671a6.png]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Verify element is present and displaying]]>
+            </line>
+            <line>
+              <![CDATA[Pass ::Verified element is displayed -> element text: LOG IN
+Forgot Password?
+Remember me
+LOG IN
+OR
+LOG IN WITH FACEBOOK
+We will never share your email.
+Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-45-799_3cfd5f64-0e86-40ee-8e00-316f1044b5c9.png]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Verify text box - 'user-email' is cleared and enter value]]>
+            </line>
+            <line>
+              <![CDATA[Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-47-194_b6151a29-3750-44c6-87ec-a375af7b051c.png]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Verify text box - 'user-password' is cleared and enter value]]>
+            </line>
+            <line>
+              <![CDATA[Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-48-516_45ff4e5b-6154-4917-9093-9e54984214db.png]]>
+            </line>
+            <line>
+              <![CDATA[Info ::Verify that Login Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_LoginTest_11-28-2018_11-23-52-791_3b3a79a2-77d7-42a1-92ac-d7bbc370d417.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- nuRentalDigitalGmStoreGC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.Designer_LoginTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1570" started-at="2018-11-28T11:23:53Z" finished-at="2018-11-28T11:23:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Info ::closeBrowser() = **Closing Browser*]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.Designer_LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- test.java.Designer_LoginTest -->
+</testng-results>

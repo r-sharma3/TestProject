@@ -1,0 +1,15 @@
+test\java\Designer_LoginTest.class
+com\org\core\Assertions.class
+com\org\core\Report$MethodResult.class
+com\org\core\Report.class
+com\org\core\Retry.class
+com\decorist\businessrules\Decorist_Constants.class
+com\decorist\businessrules\Runner.class
+com\org\core\ModifyXMLFile.class
+com\org\core\Report$SuiteResult.class
+com\decorist\pageobject\DesignerHomePage.class
+com\org\core\CoreFunctions.class
+com\org\core\Report$TestResult$1.class
+com\org\core\Report$TestResult.class
+com\decorist\businessrules\BusinessFunctions.class
+com\org\core\Report$ClassResult.class

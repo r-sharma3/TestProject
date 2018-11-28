@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 17 15:20:41 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28204 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.decorist.designer.Designer_Login.nuRentalDigitalGmStoreGC()'><b>nuRentalDigitalGmStoreGC</b><br>Test class: com.decorist.designer.Designer_Login<br/>
+<a href="#Output-987547666" onClick='toggleBox("Output-987547666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-987547666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-987547666">
+Info ::Starting Browser chrome<br/>
+Info ::Platform on which script is running : Windows 10<br/>
+Info ::Version of the chrome Browser is 70.0.3538.102<br/>
+Info ::Browserchrome Successfully Invoked<br/>
+Info ::Step1 :Launch Decorist URL<br/>
+Info ::Step2 :Login to the Application as Designer<br/>
+Info ::Verify Wait for Home Page Login Button element to be clickable<br/>
+Pass ::Verified Home Page Login Buttonelement is clickable : Waited 54mili seconds to be clickable SS_Rahul\Snapshots\November2018_Rahul_Designer_Login_11-17-2018_15-20-56-625_2403cb0c-ba0c-4c03-8c7e-01a89a0b925e.png<br/>
+Info ::Verify that Home Page Login Button is clicked<br/>
+Pass ::Verified Home Page Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_Login_11-17-2018_15-20-57-956_d7e8e4bd-1d04-45c0-995c-61528513d9ad.png<br/>
+Info ::Verify element is present and displaying<br/>
+Pass ::Verified element is displayed -> element text: LOG IN
+Forgot Password?
+Remember me
+LOG IN
+OR
+LOG IN WITH FACEBOOK
+We will never share your email.
+Don't have an account? Sign UpSS_Rahul\Snapshots\November2018_Rahul_Designer_Login_11-17-2018_15-20-59-01_1fa2fd2c-c2a6-489d-8ffa-7cac9c8c3de4.png<br/>
+Info ::Verify text box - 'user-email' is cleared and enter value<br/>
+Pass ::Verified text box - 'user-email' is cleared and entered value is: rahul.sharma+user@decorist.comSS_Rahul\Snapshots\November2018_Rahul_Designer_Login_11-17-2018_15-21-00-145_9630281e-9609-401b-bb54-335dbabd57da.png<br/>
+Info ::Verify text box - 'user-password' is cleared and enter value<br/>
+Pass ::Verified text box - 'user-password' is cleared and entered value is: Password12SS_Rahul\Snapshots\November2018_Rahul_Designer_Login_11-17-2018_15-21-01-203_d3423170-9865-436f-b93d-93531a9d1930.png<br/>
+Info ::Verify that Login Button is clicked<br/>
+Pass ::Verified Login Button is clicked successfullySS_Rahul\Snapshots\November2018_Rahul_Designer_Login_11-17-2018_15-21-07-632_c6e4e18f-04e0-4f3a-82ad-6ca75f98e18d.png<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.decorist.designer.Designer_Login@48a242ce</td></tr>
+</table><p>
+</body>
+</html>

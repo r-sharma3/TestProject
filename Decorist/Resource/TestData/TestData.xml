@@ -1,0 +1,19 @@
+<TestData>
+	<Store>
+		<AddItemtocart>
+			<BuyItem>
+				<BuyType>BUY</BuyType>
+				<BuyOption>NEW</BuyOption>
+			</BuyItem>
+
+			<RentalItem>
+				<RentType>RENT</RentType>
+				<RentOption>USED</RentOption>
+			</RentalItem>
+			<DigitalItem>
+				<DigitalType>RENT</DigitalType>
+				<DigitalOption></DigitalOption>
+			</DigitalItem>
+		</AddItemtocart>
+	</Store>
+</TestData> 
