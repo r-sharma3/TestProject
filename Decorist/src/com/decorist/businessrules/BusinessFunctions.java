@@ -191,9 +191,9 @@ public class BusinessFunctions extends CoreFunctions {
 		{
 			DesignerHomePage Homepage =PageFactory.initElements(getDriver(), DesignerHomePage.class);
 			waitElementClickable(Homepage.elementHomeLogInButton, "Home Page Login Button");
-			//Thread.sleep(6000);
+			Thread.sleep(6000);
 			click(Homepage.elementHomeLogInButton, "Home Page Login Button");
-			//Thread.sleep(6000);
+			Thread.sleep(6000);
 			isElementPresent(Homepage.elementLogInPopUp);
 			clearAndSendKey(Homepage.elementInputEmailField, "rahul.sharma+user@decorist.com");
 			clearAndSendKey(Homepage.elementInputPasswordField, "Password12");
