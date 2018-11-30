@@ -190,6 +190,7 @@ public class BusinessFunctions extends CoreFunctions {
 		try
 		{
 			getDriver().manage().window().maximize();
+			getDriver().findElement(By.cssSelector(".black-inverse")).click();
 			DesignerHomePage Homepage =PageFactory.initElements(getDriver(), DesignerHomePage.class);
 			waitElementClickable(Homepage.elementHomeLogInButton, "Home Page Login Button");
 			Thread.sleep(6000);
