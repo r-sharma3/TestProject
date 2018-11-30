@@ -189,6 +189,7 @@ public class BusinessFunctions extends CoreFunctions {
 	public void loginAsDesigner() {
 		try
 		{
+			getDriver().manage().window().maximize();
 			DesignerHomePage Homepage =PageFactory.initElements(getDriver(), DesignerHomePage.class);
 			waitElementClickable(Homepage.elementHomeLogInButton, "Home Page Login Button");
 			Thread.sleep(6000);
