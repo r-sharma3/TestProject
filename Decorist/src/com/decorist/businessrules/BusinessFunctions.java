@@ -189,7 +189,7 @@ public class BusinessFunctions extends CoreFunctions {
 	public void loginAsDesigner() {
 		try
 		{
-			getDriver().manage().window().fullscreen();
+			//getDriver().manage().window().fullscreen();
 			//getDriver().manage().window().maximize();
 			//getDriver().findElement(By.cssSelector(".black-inverse")).click();
 			DesignerHomePage Homepage =PageFactory.initElements(getDriver(), DesignerHomePage.class);
