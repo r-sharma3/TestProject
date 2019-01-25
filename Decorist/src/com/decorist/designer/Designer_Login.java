@@ -1,5 +1,4 @@
 package com.decorist.designer;
-/*package com.decorist.designer;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
