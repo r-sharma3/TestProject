@@ -21,4 +21,4 @@ public class Designer_Login extends BusinessFunctions {
 			logReport(false, Decorist_Constants.FAILED + e.getMessage(), true);
 		}
 	}
-}*/
+}
