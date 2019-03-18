@@ -118,17 +118,21 @@ public class CoreFunctions {
 		FileInputStream file;
 		String testUrl = null;
 		try {
-			file = new FileInputStream(
-					System.getProperty(Decorist_Constants.USER_DIR) + Decorist_Constants.PATH_CONFIG_PROPERTIES);
-			Properties prop = new Properties();
-			prop.load(file);
-			testUrl = prop.getProperty(Decorist_Constants.URL);
-		} catch (FileNotFoundException e) {
-			LOG.info(Decorist_Constants.ERROR, e);
-
-		} catch (IOException e) {
-			LOG.info(Decorist_Constants.ERROR, e);
+			//file = new FileInputStream(
+			//		System.getProperty(Decorist_Constants.USER_DIR) + Decorist_Constants.PATH_CONFIG_PROPERTIES);
+			//Properties prop = new Properties();
+			//prop.load(file);
+			//testUrl = prop.getProperty(Decorist_Constants.URL);
+			testUrl = System.getProperty("ENVT_URL");
+		} catch (Exception e){
+			e.printStackTrace();
 		}
+		//catch (FileNotFoundException e) {
+		//	LOG.info(Decorist_Constants.ERROR, e);
+
+		//} catch (IOException e) {
+		//	LOG.info(Decorist_Constants.ERROR, e);
+		//}
 		return testUrl;
 	}
 
